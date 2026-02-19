@@ -1,0 +1,76 @@
+[0.011s] Invoking command in '/home/jyothish/Desktop/assignment-ros2-launch-files-GoliJyothish/build/ros2_launch_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jyothish/Desktop/assignment-ros2-launch-files-GoliJyothish -DCMAKE_INSTALL_PREFIX=/home/jyothish/Desktop/assignment-ros2-launch-files-GoliJyothish/install/ros2_launch_demo
+[0.080s] -- The C compiler identification is GNU 13.3.0
+[0.149s] -- The CXX compiler identification is GNU 13.3.0
+[0.175s] -- Detecting C compiler ABI info
+[0.291s] -- Detecting C compiler ABI info - done
+[0.309s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.309s] -- Detecting C compile features
+[0.310s] -- Detecting C compile features - done
+[0.329s] -- Detecting CXX compiler ABI info
+[0.458s] -- Detecting CXX compiler ABI info - done
+[0.483s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.484s] -- Detecting CXX compile features
+[0.485s] -- Detecting CXX compile features - done
+[0.490s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.664s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.800s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.848s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.864s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.880s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.899s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.979s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.981s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.097s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.122s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.152s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.253s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.277s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.408s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.418s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.418s] -- Configured cppcheck include dirs: 
+[1.418s] -- Configured cppcheck exclude dirs and/or files: 
+[1.427s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.427s] -- Configured cpplint exclude dirs and/or files: 
+[1.429s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.429s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.432s] -- Added test 'lint_cmake' to check CMake code style
+[1.433s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.443s] -- Added test 'uncrustify' to check C / C++ code style
+[1.443s] -- Configured uncrustify additional arguments: 
+[1.445s] -- Added test 'xmllint' to check XML markup files
+[1.447s] -- Configuring done (1.4s)
+[1.462s] -- Generating done (0.0s)
+[1.468s] -- Build files have been written to: /home/jyothish/Desktop/assignment-ros2-launch-files-GoliJyothish/build/ros2_launch_demo
+[1.480s] Invoked command in '/home/jyothish/Desktop/assignment-ros2-launch-files-GoliJyothish/build/ros2_launch_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jyothish/Desktop/assignment-ros2-launch-files-GoliJyothish -DCMAKE_INSTALL_PREFIX=/home/jyothish/Desktop/assignment-ros2-launch-files-GoliJyothish/install/ros2_launch_demo
+[1.482s] Invoking command in '/home/jyothish/Desktop/assignment-ros2-launch-files-GoliJyothish/build/ros2_launch_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jyothish/Desktop/assignment-ros2-launch-files-GoliJyothish/build/ros2_launch_demo -- -j12 -l12
+[1.547s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[1.547s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o[0m
+[5.936s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[6.165s] [ 75%] Built target talker
+[9.257s] [100%] [32m[1mLinking CXX executable listener[0m
+[9.610s] [100%] Built target listener
+[9.627s] Invoked command in '/home/jyothish/Desktop/assignment-ros2-launch-files-GoliJyothish/build/ros2_launch_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jyothish/Desktop/assignment-ros2-launch-files-GoliJyothish/build/ros2_launch_demo -- -j12 -l12
+[9.641s] Invoking command in '/home/jyothish/Desktop/assignment-ros2-launch-files-GoliJyothish/build/ros2_launch_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jyothish/Desktop/assignment-ros2-launch-files-GoliJyothish/build/ros2_launch_demo
+[9.650s] -- Install configuration: ""
+[9.651s] -- Installing: /home/jyothish/Desktop/assignment-ros2-launch-files-GoliJyothish/install/ros2_launch_demo/lib/ros2_launch_demo/talker
+[9.652s] -- Set non-toolchain portion of runtime path of "/home/jyothish/Desktop/assignment-ros2-launch-files-GoliJyothish/install/ros2_launch_demo/lib/ros2_launch_demo/talker" to ""
+[9.652s] -- Installing: /home/jyothish/Desktop/assignment-ros2-launch-files-GoliJyothish/install/ros2_launch_demo/lib/ros2_launch_demo/listener
+[9.658s] -- Set non-toolchain portion of runtime path of "/home/jyothish/Desktop/assignment-ros2-launch-files-GoliJyothish/install/ros2_launch_demo/lib/ros2_launch_demo/listener" to ""
+[9.658s] -- Installing: /home/jyothish/Desktop/assignment-ros2-launch-files-GoliJyothish/install/ros2_launch_demo/share/ros2_launch_demo/launch
+[9.658s] -- Installing: /home/jyothish/Desktop/assignment-ros2-launch-files-GoliJyothish/install/ros2_launch_demo/share/ros2_launch_demo/launch/pubsub.launch.py
+[9.658s] -- Installing: /home/jyothish/Desktop/assignment-ros2-launch-files-GoliJyothish/install/ros2_launch_demo/share/ament_index/resource_index/package_run_dependencies/ros2_launch_demo
+[9.658s] -- Installing: /home/jyothish/Desktop/assignment-ros2-launch-files-GoliJyothish/install/ros2_launch_demo/share/ament_index/resource_index/parent_prefix_path/ros2_launch_demo
+[9.658s] -- Installing: /home/jyothish/Desktop/assignment-ros2-launch-files-GoliJyothish/install/ros2_launch_demo/share/ros2_launch_demo/environment/ament_prefix_path.sh
+[9.658s] -- Installing: /home/jyothish/Desktop/assignment-ros2-launch-files-GoliJyothish/install/ros2_launch_demo/share/ros2_launch_demo/environment/ament_prefix_path.dsv
+[9.659s] -- Installing: /home/jyothish/Desktop/assignment-ros2-launch-files-GoliJyothish/install/ros2_launch_demo/share/ros2_launch_demo/environment/path.sh
+[9.659s] -- Installing: /home/jyothish/Desktop/assignment-ros2-launch-files-GoliJyothish/install/ros2_launch_demo/share/ros2_launch_demo/environment/path.dsv
+[9.659s] -- Installing: /home/jyothish/Desktop/assignment-ros2-launch-files-GoliJyothish/install/ros2_launch_demo/share/ros2_launch_demo/local_setup.bash
+[9.659s] -- Installing: /home/jyothish/Desktop/assignment-ros2-launch-files-GoliJyothish/install/ros2_launch_demo/share/ros2_launch_demo/local_setup.sh
+[9.659s] -- Installing: /home/jyothish/Desktop/assignment-ros2-launch-files-GoliJyothish/install/ros2_launch_demo/share/ros2_launch_demo/local_setup.zsh
+[9.659s] -- Installing: /home/jyothish/Desktop/assignment-ros2-launch-files-GoliJyothish/install/ros2_launch_demo/share/ros2_launch_demo/local_setup.dsv
+[9.660s] -- Installing: /home/jyothish/Desktop/assignment-ros2-launch-files-GoliJyothish/install/ros2_launch_demo/share/ros2_launch_demo/package.dsv
+[9.660s] -- Installing: /home/jyothish/Desktop/assignment-ros2-launch-files-GoliJyothish/install/ros2_launch_demo/share/ament_index/resource_index/packages/ros2_launch_demo
+[9.660s] -- Installing: /home/jyothish/Desktop/assignment-ros2-launch-files-GoliJyothish/install/ros2_launch_demo/share/ros2_launch_demo/cmake/ros2_launch_demoConfig.cmake
+[9.660s] -- Installing: /home/jyothish/Desktop/assignment-ros2-launch-files-GoliJyothish/install/ros2_launch_demo/share/ros2_launch_demo/cmake/ros2_launch_demoConfig-version.cmake
+[9.660s] -- Installing: /home/jyothish/Desktop/assignment-ros2-launch-files-GoliJyothish/install/ros2_launch_demo/share/ros2_launch_demo/package.xml
+[9.664s] Invoked command in '/home/jyothish/Desktop/assignment-ros2-launch-files-GoliJyothish/build/ros2_launch_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jyothish/Desktop/assignment-ros2-launch-files-GoliJyothish/build/ros2_launch_demo
